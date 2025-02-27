@@ -31,7 +31,7 @@ Portanto, visando praticidade, pensei em uma solução que usasse visão computa
 ### Primeiro :point_up: : Sinaliza o início de um repositório no GitHub
 ### Positivo 👍: Sinaliza a permissão de submissão de um commit
 ### "VoltaMain" :point_left: : Sinaliza a volta para o branch main
-### "V" :v:	: Sinaliza a criação de um branch juntamente com um git
+### "V" :v:	: Sinaliza a criação de um branch juntamente com um commit
 ### Ok(Trocar) 👌 : Sinaliza a permissão de acesso/troca para algum outro branch existente 
 
 ### Exemplo do que pode ser evitado/simplificado pelo projeto:
