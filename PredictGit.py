@@ -87,6 +87,15 @@ def func1(frame):
                 for i in range(5):
                     print('.' , end= '' , flush=True)
                     sleep(1)
+            if gesto_previsto == 'TROCAR':
+                print()
+                print('GESTO TROCAR')
+                subprocess.run(['git' , 'checkout' , nome_do_branch.get()])
+                sleep(1)
+                print('Adicionando o comando' ,end='', flush=True)
+                for i in range(5):
+                    print('.' , end= '' , flush=True)
+                    sleep(1)
     return frame
 
 def func2():  
